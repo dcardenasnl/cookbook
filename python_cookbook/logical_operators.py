@@ -1,8 +1,8 @@
 x = 2
 
-################
-# Bad Practice #
-################
+'''
+ Bad Practice
+'''
 
 if x == 0:
     print('a')
@@ -17,9 +17,9 @@ elif x == 3:
     print('d')
     pass
 
-#################
-# Good Practice #
-#################
+'''
+ Option 1
+'''
 
 x_states_text = {
     0: 'a',
